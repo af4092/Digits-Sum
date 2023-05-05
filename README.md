@@ -7,7 +7,7 @@ Simple project to check gradle building tool installation. Program sums all digi
 
 ## IMPORTANT 
 
-Popular error message is:
+Popular error message is while trying to run jar file:
 
 ```
 $ java -jar untitled-1.0-SNAPSHOT.jar
