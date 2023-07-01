@@ -46,20 +46,20 @@ tasks.jar {
     
 - In the constructor of the UI class:
 
-The UI window's title, size, and close operation are set.
-The content pane's layout is set to null.
-The UI components are created, positioned, and added to the content pane.
-An action listener is added to the btnSum button, which listens for button clicks. When the button is clicked, the action listener's actionPerformed method is invoked.
+    - The UI window's title, size, and close operation are set.
+    - The content pane's layout is set to null.
+    - The UI components are created, positioned, and added to the content pane.
+    - An `action listener` is added to the btnSum button, which listens for button clicks. When the button is clicked, the action listener's actionPerformed method is invoked.
 
-Inside the actionPerformed method:
+- Inside the actionPerformed method:
 
-The text entered in the tfInput field is retrieved using tfInput.getText().
-The retrieved text is parsed into a Long value using Long.parseLong() and stored in inputDouble.
-An instance of the sumDigits class (not provided) is created.
-The sumDigits object's sumDigits method is called, passing inputDouble as an argument.
-The returned result is cast to an int and stored in the result variable.
-The result is converted to a String using Integer.toString() and stored in resultFinal.
-The resultFinal string is set as the text of the lbOutput label.
-The UI class does not define the sumDigits class, so the calculation logic for summing the digits of a number is missing. To make the code functional, you need to define the sumDigits class separately and provide its implementation.
+    - The text entered in the tfInput field is retrieved using `tfInput.getText()`.
+    - The retrieved text is parsed into a Long value using `Long.parseLong()` and stored in `inputDouble`.
+    - An instance of the `sumDigits` class (not provided) is created.
+    - The sumDigits object's sumDigits method is called, passing inputDouble as an argument.
+    - The returned result is cast to an int and stored in the result variable.
+    - The result is converted to a String using `Integer.toString()` and stored in resultFinal.
+    - The resultFinal string is set as the text of the lbOutput label.
+    - The UI class does not define the sumDigits class, so the calculation logic for summing the digits of a number is missing. To make the code functional, you need to define the sumDigits class separately and provide its implementation.
 
-When the UI is launched and interacted with, it provides a simple input field for entering a number, a button to trigger the digit sum calculation, and a label to display the result.
+- When the UI is launched and interacted with, it provides a simple input field for entering a number, a button to trigger the digit sum calculation, and a label to display the result.
