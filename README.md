@@ -3,7 +3,9 @@ Digits-Sum built on java, UI on window builder, building tool gradle.
 
 - Simple project to check gradle building tool installation. Program sums all digits of given number:
 
-![image](https://user-images.githubusercontent.com/24220136/226554269-d267bc23-c826-42fc-96be-bc93000a4036.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/226554269-d267bc23-c826-42fc-96be-bc93000a4036.png" alt="Image">
+</p>
 
 ## IMPORTANT 
 
@@ -56,10 +58,10 @@ tasks.jar {
     - The text entered in the tfInput field is retrieved using `tfInput.getText()`.
     - The retrieved text is parsed into a Long value using `Long.parseLong()` and stored in `inputDouble`.
     - An instance of the `sumDigits` class (not provided) is created.
-    - The sumDigits object's sumDigits method is called, passing inputDouble as an argument.
+    - The sumDigits object's sumDigits method is called, passing `inputDouble` as an argument.
     - The returned result is cast to an int and stored in the result variable.
     - The result is converted to a String using `Integer.toString()` and stored in resultFinal.
-    - The resultFinal string is set as the text of the lbOutput label.
-    - The UI class does not define the sumDigits class, so the calculation logic for summing the digits of a number is missing. To make the code functional, you need to define the sumDigits class separately and provide its implementation.
+    - The `resultFinal` string is set as the text of the `lbOutput` label.
+    - The UI class does not define the sumDigits class, so the calculation logic for summing the digits of a number is missing. To make the code functional, you need to define the `sumDigits` class separately and provide its implementation.
 
-- When the UI is launched and interacted with, it provides a simple input field for entering a number, a button to trigger the digit sum calculation, and a label to display the result.
+- When the `UI` is launched and interacted with, it provides a simple input field for entering a number, a button to trigger the digit sum calculation, and a label to display the result.
